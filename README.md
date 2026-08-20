@@ -7,8 +7,8 @@
   <img src="https://img.shields.io/badge/Platform-ESP32%20%2B%20nRF24L01-orange?style=for-the-badge" alt="Platform">
   <img src="https://img.shields.io/badge/Domain-WiFi%20%26%20Bluetooth-purple?style=for-the-badge" alt="Domain">
   <img src="https://img.shields.io/badge/Research-Mode-red?style=for-the-badge" alt="Research">
-  <img src="https://img.shields.io/badge/Firmware-IDE-yellow?style=for-the-badge" alt="Arduino-IDE">
-  <img src="https://img.shields.io/badge/Analysis-Tool-blue?style=for-the-badge" alt="MATLAB">
+  <img src="https://img.shields.io/badge/Firmware-Arduino-yellow?style=for-the-badge" alt="">
+  <img src="https://img.shields.io/badge/Analysis-MATLAB-blue?style=for-the-badge" alt="MATLAB">
 </p>
 
 <p align="center">
