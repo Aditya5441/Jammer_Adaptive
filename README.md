@@ -66,7 +66,7 @@ From power-up and interference mode selection, through entropy generation, chann
 ### Circuit Diagram
 
 <p align="center">
-  <img src="images/Circuit_Diagram.jpeg" alt="Circuit Diagram" width="750">
+  <img src="Pics/Circuit_Diagram.jpeg" alt="Circuit Diagram" width="750">
 </p>
 
 **Figure 2 – Schematic of the dual nRF24L01 + ESP32-based prototype**  
@@ -75,7 +75,7 @@ Two independent nRF24L01 modules handle Wi-Fi and Bluetooth band coverage. Suppo
 ### Physical Prototype
 
 <p align="center">
-  <img src="images/Hardware.png" alt="Hardware Prototype" width="700">
+  <img src="Pics/Hardware.png" alt="Hardware Prototype" width="700">
 </p>
 
 **Figure 3 – Assembled hardware**  
@@ -88,7 +88,7 @@ ESP32 microcontroller, dual nRF24L01 modules with antennas, breadboard interconn
 ### Bit-Flip Sensitivity (Avalanche Detail)
 
 <p align="center">
-  <img src="images/Bit-Flip%20Sensitivity%20Map%20(Avalanche%20Detail).png" alt="Bit-Flip Sensitivity Map" width="700">
+  <img src="Pics/Bit-Flip%20Sensitivity%20Map%20(Avalanche%20Detail).png" alt="Bit-Flip Sensitivity Map" width="700">
 </p>
 
 **Figure 4 – Bit-Flip Sensitivity Map**  
@@ -97,7 +97,7 @@ Visualizes the avalanche effect: each plaintext bit position (x-axis) and its in
 ### Bit-Level Avalanche Effect Across Blocks
 
 <p align="center">
-  <img src="images/Bit-Level%20Avalanche%20Effect%20Across%20Blocks.png" alt="Bit-Level Avalanche" width="650">
+  <img src="Pics/Bit-Level%20Avalanche%20Effect%20Across%20Blocks.png" alt="Bit-Level Avalanche" width="650">
 </p>
 
 **Figure 5 – Avalanche ratio per block**  
@@ -106,7 +106,7 @@ Shows how a single-bit change propagates across successive 16-byte blocks (ideal
 ### Byte-Level Diffusion
 
 <p align="center">
-  <img src="images/Byte-Level%20Diffusion%20per%20Block.png" alt="Byte-Level Diffusion" width="650">
+  <img src="Pics/Byte-Level%20Diffusion%20per%20Block.png" alt="Byte-Level Diffusion" width="650">
 </p>
 
 **Figure 6 – Byte-level diffusion ratio**  
@@ -115,7 +115,7 @@ Demonstrates progressive improvement in diffusion strength across blocks.
 ### Round-by-Round Diffusion in Morphing Encryption
 
 <p align="center">
-  <img src="images/Round-by-Round%20Diffusion%20in%20Morphing%20Encryption.png" alt="Round-by-Round Diffusion" width="700">
+  <img src="Pics/Round-by-Round%20Diffusion%20in%20Morphing%20Encryption.png" alt="Round-by-Round Diffusion" width="700">
 </p>
 
 **Figure 7 – Diffusion evolution over rounds**  
@@ -124,7 +124,7 @@ Heatmap illustrating how the adaptive morphing cipher rapidly achieves high diff
 ### Entropy Gain After Adaptive Morphing Encryption
 
 <p align="center">
-  <img src="images/Entropy%20Gain%20After%20Adaptive%20Morphing%20Encryption.png" alt="Entropy Gain" width="700">
+  <img src="Pics/Entropy%20Gain%20After%20Adaptive%20Morphing%20Encryption.png" alt="Entropy Gain" width="700">
 </p>
 
 **Figure 8 – Shannon entropy comparison**  
@@ -133,7 +133,7 @@ Plaintext (blue) vs. ciphertext (orange) entropy per block, confirming significa
 ### Fused Entropy Source Behavior
 
 <p align="center">
-  <img src="images/Fused%20Entropy%20Source%20vs.%20Block.png" alt="Fused Entropy" width="650">
+  <img src="Pics/Fused%20Entropy%20Source%20vs.%20Block.png" alt="Fused Entropy" width="650">
 </p>
 
 **Figure 9 – Normalized fused entropy across blocks**  
@@ -142,7 +142,7 @@ Shows the dynamic entropy harvested from radio noise and timing jitter that driv
 ### Time-Domain Ciphertext Randomness
 
 <p align="center">
-  <img src="images/Time-Domain%20Ciphertext%20Randomness.png" alt="Time-Domain Randomness" width="700">
+  <img src="Pics/Time-Domain%20Ciphertext%20Randomness.png" alt="Time-Domain Randomness" width="700">
 </p>
 
 **Figure 10 – Ciphertext byte stream in time domain**  
@@ -151,7 +151,7 @@ Highly irregular amplitude patterns confirm effective randomization.
 ### Frequency-Domain Spectrum of Ciphertext
 
 <p align="center">
-  <img src="images/Frequency-Domain%20Spectrum%20of%20Ciphertext%20Stream.png" alt="Frequency Spectrum" width="650">
+  <img src="Pics/Frequency-Domain%20Spectrum%20of%20Ciphertext%20Stream.png" alt="Frequency Spectrum" width="650">
 </p>
 
 **Figure 11 – Frequency-domain spectrum**  
@@ -205,7 +205,7 @@ TYPE,LOOP_INDEX,BLOCK_INDEX,TDA,ENTROPY,KEY_LEN,OP1,OP2,OP3
 This project is released under the **Apache License 2.0**.
 
 ```
-Copyright 2025 [Your Name / Inventor]
+Copyright 2026 Aditya
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
