@@ -53,7 +53,7 @@ The system is designed for **research and evaluation purposes only**.
 The device follows a continuous closed-loop pipeline:
 
 <p align="center">
-  <img src="images/Device_Workflow.png" alt="Device Workflow" width="900">
+  <img src="Jammer_Adaptive/Pics/Device_Workflow.png" alt="Device Workflow" width="900">
 </p>
 
 **Figure 1 – High-level operational workflow**  
